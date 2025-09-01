@@ -1,0 +1,16 @@
+<suite name="GMail test Suite">
+
+   <test name="Send Mail">
+   <parameter name="mailid" value="demo.qedge@gmail.com"></parameter>
+   <parameter name="sub" value="selenium job alert"></parameter>
+      <classes>
+         <class name="testcases.sendmail"/>
+      </classes>
+   </test>
+<test name="Receive Mail">
+      <classes>
+         <class name="testcases.receivemail"/>
+      </classes>
+   </test>
+</suite>
+
